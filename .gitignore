@@ -1,0 +1,24 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Entorno virtual
+envlab/
+
+# MLflow (se regeneran al entrenar / levantar el servidor)
+mlartifacts/
+mlflow.db
+mlruns/
+
+# IDE
+.idea/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
