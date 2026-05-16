@@ -19,7 +19,7 @@ mlflow.set_tracking_uri("http://127.0.0.1:9090")
 
 # Cambie la versión si MLflow registra una nueva versión del modelo:
 # models:/clase06/1, models:/logisticRegression01/1, etc.
-MODEL_URI = "models:/logisticRegression01/11"
+MODEL_URI = "models:/logisticRegression01/10"
 
 @st.cache_resource
 def cargar_modelo():

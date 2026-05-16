@@ -9,17 +9,18 @@
 * opción 2 - problemas con cors : mlflow server --backend-store-uri sqlite:///mlflow.db --host 0.0.0.0 --port 9090 --allowed-hosts "*" --cors-allowed-origins "*"
 
 
-### Para entrenar el modelo utiliza jupiter lab
+### Para entrenar y crear el modelo utiliza jupiter lab
 1. En un nuevo terminal
-2. Desde la carpeta raíz, ejecutar jupyter-lab
+2. Desde la carpeta raíz, ejecutar jupyter-lab [taskLab.ipynb](taskLab.ipynb)
 
+**Importante:** Antes de la API o Streamlit, entrena y registra el modelo en MLflow con `taskLab.ipynb`. La carpeta `mlartifacts/` no se sube al repo; debes generarla localmente al entrenar.
 ### Use model from API
 1. En un nuevo terminal
-2. Desde la carpeta raíz, ejecutar python api_flask.py
+2. Desde la carpeta raíz, ejecutar python  [api_flask.py](api_flask.py)
 
 ### Use model from Streamlit
 1. En un nuevo terminal
-2. Desde la carpeta raíz, ejecutar streamlit run app_streamlit.py
+2. Desde la carpeta raíz, ejecutar streamlit run  [app_streamlit.py](app_streamlit.py)
 
 **_Importante_**: Tanto para el uso del api o del streamlit se debe validar el modelo y el url de MlFlow.
 

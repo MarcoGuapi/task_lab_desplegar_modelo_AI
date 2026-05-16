@@ -5,7 +5,7 @@ import pandas as pd
 
 mlflow.set_tracking_uri("http://localhost:9090") # cambiar en función de su servidor
 ## http://0.0.0.0:9090/#/models/task_model/versions/1
-model = mlflow.sklearn.load_model("models:/logisticRegression01/4") # cambiar en función de su modelo
+model = mlflow.sklearn.load_model("models:/logisticRegression01/10") # cambiar en función de su modelo
 
 app = Flask(__name__)
 
